@@ -4,10 +4,15 @@ Configurations:
 1) Please install the following libraries, or load the provided ‘environment.yml’ file
 
   a. TensorFlow-GPU 2.3.1
+  
   b. Keras-GPU 2.3.1
+  
   c. OpenCV 4.2
+  
   d. Imgaug
+  
   e. Tqdm
+  
 We used Anaconda with Python 3.7.8 for simulations. Also please install MATLAB R2020b as well
 with deep learning and computer vision toolboxes.
 
@@ -15,14 +20,23 @@ with deep learning and computer vision toolboxes.
 following hierarchy:
 
 -datasets
+
   -dataset name (e.g. sixray)
+  
     -abnormal
+    
     -input
+    
     -normal (only for SIXray for one-time training)
+    
     -results
+    
       -disp
+      
       -fake
+      
       -real
+      
       -results
 
 For the one-time training, please provide the normal samples in ‘normal’ folder within SIXray
