@@ -56,7 +56,7 @@ We provided the trained encoder-decoder model that can be used for reconstructio
 
 
 ## Results
-Some demo results of the proposed framework (for each dataset) are presented in the '…/datasets/(dataset-name)/results' folder. 
+The results of the proposed framework (for each dataset) are presented in the '…/datasets/(dataset-name)/results' folder. 
 
 ## Citation
 If you use the proposed framework (or any part of this code in your research), please cite the following paper:
