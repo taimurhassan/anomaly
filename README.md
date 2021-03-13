@@ -1,7 +1,7 @@
 # Unsupervised Anomaly Instance Segmentation for Baggage Threat Recognition
 
 ## Introduction
-This repository contains the implementation of our anomaly instance segmentation framework, as shown below: 
+This repository contains the implementation of the proposed unsupervised anomaly instance segmentation framework, as shown below: 
 
 ![TP](/images/anomaly.png)
 
