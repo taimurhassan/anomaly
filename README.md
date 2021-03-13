@@ -41,21 +41,22 @@ The X-ray datasets can be downloaded from the following URLs:
 │   │   │   └── results
 ```
 
-For the one-time training, please provide the normal samples in ‘normal’ folder within SIXray folder.
-For the test datasets, please provide test (abnormal) samples in ‘input’ folder for all datasets.
+2) For the one-time training, please provide the normal samples in ‘normal’ folder within SIXray folder.
 
-2) Please run the ‘gwfs.m’ in MATLAB for stylization, the stylized output is saved in the ‘abnormal’
+3) For the test datasets, please provide test (abnormal) samples in ‘input’ folder for all datasets.
+
+4) Please run the ‘gwfs.m’ in MATLAB for stylization, the stylized output is saved in the ‘abnormal’
 folder. Please note that this step is only to be performed for the test scans.
 
-3) Afterward, please run the ‘main.py’ to produce reconstructions and disparity maps:
+5) Afterward, please run the ‘main.py’ to produce reconstructions and disparity maps:
 
 ```
 python main.py
 ```
 
-We provided the trained encoder-decoder model that can be used for reconstruction. However, for training, please check to the flag at Line 58 within config.py to ‘True’.
+6) We provided the trained encoder-decoder model that can be used for reconstruction. However, for training, please check to the flag at Line 58 within config.py to ‘True’.
 
-4) After completing step 3, please run ‘cluster.m’ file to produce final outputs. The outputs are saved in the ‘results->results folder’ for each dataset.
+7) After completing step 6, please run ‘cluster.m’ file to produce final outputs. The outputs are saved in the ‘results->results folder’ for each dataset.
 
 
 ## Results
