@@ -22,6 +22,7 @@ The X-ray datasets can be downloaded from the following URLs:
 1. [GDXray](https://domingomery.ing.puc.cl/material/gdxray/) 
 2. [SIXray](https://github.com/MeioJane/SIXray) 
 3. [OPIXray](https://github.com/OPIXray-author/OPIXray)
+4. [COMPASS-XP](https://figshare.com/articles/dataset/COMPASS-XP/9249791/1)
 
 ## Steps 
 
@@ -48,7 +49,9 @@ folder. Please note that this step is only to be performed for the test scans.
 
 3) Afterward, please run the ‘main.py’ to produce reconstructions and disparity maps:
 
---- python main.py
+```
+python main.py
+```
 
 We provided the trained encoder-decoder model that can be used for reconstruction. However, for training, please check to the flag at Line 58 within config.py to ‘True’.
 
