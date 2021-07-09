@@ -69,7 +69,7 @@ If you use the proposed framework (or any part of this code in your research), p
 @inproceedings{Hassan2021Anomaly,
   title   = {Unsupervised Anomaly Instance Segmentation for Baggage Threat Recognition},
   author  = {Taimur Hassan and Samet Akcay and Mohammed Bennamoun and Salman Khan and Naoufel Werghi},
-  note = {Accepted in Springer Journal of Ambient Intelligence and Humanized Computing},
+  note = {Accepted in Journal of Ambient Intelligence and Humanized Computing},
   year = {2021}
 }
 ```
