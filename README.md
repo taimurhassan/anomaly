@@ -1,5 +1,7 @@
 # Unsupervised Anomaly Instance Segmentation for Baggage Threat Recognition
 
+[Paper](https://arxiv.org/abs/2107.07333)
+
 ## Introduction
 This repository contains the implementation of the proposed unsupervised anomaly instance segmentation framework, as shown below: 
 
@@ -69,7 +71,7 @@ If you use the proposed framework (or any part of this code in your research), p
 @inproceedings{Hassan2021Anomaly,
   title   = {Unsupervised Anomaly Instance Segmentation for Baggage Threat Recognition},
   author  = {Taimur Hassan and Samet Akcay and Mohammed Bennamoun and Salman Khan and Naoufel Werghi},
-  note = {Accepted in Journal of Ambient Intelligence and Humanized Computing},
+  note = {Journal of Ambient Intelligence and Humanized Computing},
   year = {2021}
 }
 ```
